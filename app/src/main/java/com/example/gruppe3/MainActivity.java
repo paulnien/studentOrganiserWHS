@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void calendar_input (String title, String description, String eventTimeZone, long calID, int start_year, int start_month, int start_date, int start_hour, int start_minute, int end_year, int end_month, int end_date, int end_hour, int end_minute )
     {
+        // methodenaufruf bisher: calendar_input("Methoden test123", "Dies ist ein testeintrag!", "America/Los_Angeles", 6, 2020, 5, 28, 14, 15, 2020,5,28, 14,45);
         // ganztägige Events einfügen; Notifications einfügen; andere IDs herausfinden
         long startMillis = 0;
         long endMillis = 0;
